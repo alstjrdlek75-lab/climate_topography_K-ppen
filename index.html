@@ -675,15 +675,15 @@
   <div class="container">
     <!-- 헤더 타이틀 -->
     <div class="title-banner">
-      <h1>🌍 통합사회 지리 학습 대시보드</h1>
+      <h1>통합사회 지리 학습 대시보드</h1>
     </div>
 
     <!-- 컨트롤바 -->
     <div class="control-bar">
       <!-- 1차 대분류 전환 탭 -->
       <div class="topic-tabs">
-        <button class="topic-btn active" data-topic="climate">🌍 기후대별 주민 생활</button>
-        <button class="topic-btn" data-topic="landform">⛰️ 지형 조건과 주민 생활</button>
+        <button class="topic-btn active" data-topic="climate">기후대별 주민 생활</button>
+        <button class="topic-btn" data-topic="landform">지형 조건과 주민 생활</button>
       </div>
 
       <div class="control-row">
@@ -974,26 +974,30 @@
           <p class="slogan-title">"해발 고도가 높고 경사가 급하지만, 적응과 극복의 삶이 펼쳐지는 곳"</p>
         </div>
         <div class="section-columns">
-          <!-- 1열: 기후 그래프 -->
+          <!-- 1열: 기후 그래프 & 산지 특징 -->
           <div class="graphs-card">
             <div class="card-item">
               <div class="chart-container" data-chart="h"></div>
               <p class="card-item-title">📊 열대 고산 기후(H - 키토) 그래프</p>
             </div>
-          </div>
-          <!-- 2열: 사진 -->
-          <div class="photos-card">
             <div class="card-item">
               <img src="images/mountain_terrain.png" alt="산지 지형">
               <p class="card-item-title">⛰️ 험준한 산지 지형 경관</p>
             </div>
-            <div class="card-item">
-              <img src="images/mountain_tourism.png" alt="산지 관광">
-              <p class="card-item-title">🚂 알프스 산악 관광 열차</p>
-            </div>
+          </div>
+          <!-- 2열: 주민 생활 사진 -->
+          <div class="photos-card">
             <div class="card-item">
               <img src="images/mountain_characteristic.png" alt="고산 도시 키토">
               <p class="card-item-title">🏡 연중 온화한 열대 고산 도시 (키토)</p>
+            </div>
+            <div class="card-item">
+              <img src="images/mountain_pastoralism.png" alt="알파카 방목">
+              <p class="card-item-title">🦙 안데스산맥 고산 지대의 야마·알파카 유목 생활</p>
+            </div>
+            <div class="card-item">
+              <img src="images/mountain_tourism.png" alt="산지 관광">
+              <p class="card-item-title">🚂 알프스 산악 관광 열차</p>
             </div>
           </div>
           <!-- 3열: 텍스트 카드 -->
@@ -1060,6 +1064,10 @@
               <img src="images/plain_agriculture.png" alt="김제평야 벼농사">
               <p class="card-item-title">🌾 김제평야의 대규모 벼농사 수확 모습</p>
             </div>
+            <div class="card-item">
+              <img src="images/plain_mechanized.png" alt="기계화 농업">
+              <p class="card-item-title">🚜 대평원 지대의 대규모 기계화 농업 (밀 수확)</p>
+            </div>
           </div>
           <!-- 3열: 텍스트 카드 -->
           <div class="text-column">
@@ -1111,7 +1119,7 @@
           <!-- 1열: 지형 특징 사진 -->
           <div class="graphs-card">
             <div class="card-item">
-              <img src="images/coast_terrain.png" alt="해식애와 시스택">
+              <img src="images/coast_sea_stack.png" alt="해식애와 시스택">
               <p class="card-item-title">🌊 해식애와 돌기둥(시 스택)이 어우러진 해안 경관</p>
             </div>
             <div class="card-item">
@@ -1122,8 +1130,12 @@
           <!-- 2열: 주민 생활 사진 -->
           <div class="photos-card">
             <div class="card-item">
-              <img src="images/coast_lanzarote.png" alt="란사로테 바람막이 돌담">
-              <p class="card-item-title">🍇 란사로테 섬의 반원형 돌담 바람막이와 포도 재배</p>
+              <img src="images/coast_aquaculture.png" alt="가두리 양식장">
+              <p class="card-item-title">🐟 가두리 양식장과 수산 양식업</p>
+            </div>
+            <div class="card-item">
+              <img src="images/coast_port.png" alt="무역 항구">
+              <p class="card-item-title">⚓ 해상 물류의 중심인 대규모 컨테이너 부두와 무역 항구</p>
             </div>
           </div>
           <!-- 3열: 텍스트 카드 -->
@@ -1151,10 +1163,6 @@
                 <li>
                   <span class="feature-tag">관광 산업</span>
                   <span class="feature-detail">파도에 깎인 <span class="blank" data-answer="해식애">해식애</span>나 돌기둥인 <span class="blank" data-answer="시 스택">시 스택</span> 등 수려한 경관을 즐기는 해양 <span class="blank" data-answer="관광 산업">관광 산업</span> 발달.</span>
-                </li>
-                <li>
-                  <span class="feature-tag">란사로테 극복사례</span>
-                  <span class="feature-detail">화산섬 <span class="blank" data-answer="란사로테">란사로테</span>에서는 바람을 막기 위해 돌로 <span class="blank" data-answer="반원형 바람막이 벽">반원형 바람막이 벽</span>을 쌓아 <span class="blank" data-answer="포도">포도</span>를 재배함.</span>
                 </li>
               </ul>
               <!-- 단어 바구니 -->
@@ -1189,6 +1197,10 @@
             <div class="card-item">
               <img src="images/river_barge.png" alt="라인강 화물선">
               <p class="card-item-title">🚢 독일 라인강을 운항하는 대형 화물 바지선</p>
+            </div>
+            <div class="card-item">
+              <img src="images/river_agriculture.png" alt="범람원 농업">
+              <p class="card-item-title">🌾 하천 주변 범람원의 비옥한 토양을 활용한 농경 (메콩강 삼각주)</p>
             </div>
           </div>
           <!-- 3열: 텍스트 카드 -->
@@ -1242,6 +1254,10 @@
             <div class="card-item">
               <img src="images/karst_doline.png" alt="돌리네">
               <p class="card-item-title">🕳️ 석회암 고원에 형성된 깔때기 모양의 웅덩이(돌리네)</p>
+            </div>
+            <div class="card-item">
+              <img src="images/karst_agriculture.png" alt="돌리네 농업">
+              <p class="card-item-title">🍇 돌리네 내부의 비옥한 흙을 이용한 밭농사 및 포도 재배</p>
             </div>
           </div>
           <!-- 3열: 텍스트 카드 -->
@@ -1300,6 +1316,10 @@
               <img src="images/volcano_geothermal.png" alt="지열 발전소">
               <p class="card-item-title">⚡ 땅속의 강한 열을 이용하는 지열 발전소</p>
             </div>
+            <div class="card-item">
+              <img src="images/volcano_lanzarote.png" alt="란사로테 바람막이 돌담">
+              <p class="card-item-title">🍇 화산재 토양을 극복한 란사로테 섬의 포도 재배</p>
+            </div>
           </div>
           <!-- 3열: 텍스트 카드 -->
           <div class="text-column">
@@ -1322,6 +1342,10 @@
                 <li>
                   <span class="feature-tag">자원 활용</span>
                   <span class="feature-detail">온천 관광이나 땅속의 열을 활용한 <span class="blank" data-answer="지열 발전">지열 발전</span>으로 전력을 얻으며, 비옥한 화산재 토양을 기반으로 농사(차, 포도 등)를 짓기도 함.</span>
+                </li>
+                <li>
+                  <span class="feature-tag">란사로테 극복사례</span>
+                  <span class="feature-detail">화산섬 <span class="blank" data-answer="란사로테">란사로테</span>에서는 바람을 막기 위해 돌로 <span class="blank" data-answer="반원형 바람막이 벽">반원형 바람막이 벽</span>을 쌓아 <span class="blank" data-answer="포도">포도</span>를 재배함.</span>
                 </li>
               </ul>
               <!-- 단어 바구니 -->
@@ -1356,6 +1380,10 @@
             <div class="card-item">
               <img src="images/glacier_u_valley.png" alt="U자곡">
               <p class="card-item-title">🏔️ 빙하 침식으로 만들어진 웅장한 U자형 골짜기 (라우터브루넨)</p>
+            </div>
+            <div class="card-item">
+              <img src="images/glacier_tourism.png" alt="피오르 관광">
+              <p class="card-item-title">🚢 에이랑에르 피오르 협곡을 탐험하는 크루즈 관광선</p>
             </div>
           </div>
           <!-- 3열: 텍스트 카드 -->
@@ -1460,8 +1488,11 @@
       const graphWidth = width - padding.left - padding.right;
       const graphHeight = height - padding.top - padding.bottom;
       
-      const temps = data.temps;
-      const precips = data.precips;
+      const hemisphere = container.getAttribute('data-hemisphere') || 'north';
+      const isSouth = hemisphere === 'south';
+      
+      const temps = isSouth ? [...data.temps.slice(6), ...data.temps.slice(0, 6)] : data.temps;
+      const precips = isSouth ? [...data.precips.slice(6), ...data.precips.slice(0, 6)] : data.precips;
       
       // 기온 스케일 자동 설정 (빙설 기후 등 고려)
       let minT = -20;
@@ -1548,6 +1579,9 @@
           <!-- 축 제목 -->
           <text x="${padding.left}" y="15" fill="#868e96" font-size="8" font-weight="700" text-anchor="middle">기온(°C)</text>
           <text x="${width - padding.right}" y="15" fill="#868e96" font-size="8" font-weight="700" text-anchor="middle">강수(mm)</text>
+          
+          <!-- 남반구/북반구 표식 -->
+          <text x="180" y="15" fill="${isSouth ? '#c2255c' : '#1c7ed6'}" font-size="9.5" font-weight="800" text-anchor="middle">${isSouth ? '남반구 기후 (클릭시 전환)' : '북반구 기후 (클릭시 전환)'}</text>
           
           <!-- 월 표식 -->
           ${monthLabels}
@@ -1889,12 +1923,68 @@
         resetBlank(blank);
       });
       initWordBank();
+      
+      // 기후 그래프 북반구로 리셋
+      activeSec.querySelectorAll('.chart-container').forEach(container => {
+        container.setAttribute('data-hemisphere', 'north');
+        const chartType = container.getAttribute('data-chart');
+        drawClimateChart(container, chartType);
+        
+        // 카드 타이틀 복원
+        const card = container.closest('.card-item');
+        if (card) {
+          const titleEl = card.querySelector('.card-item-title');
+          if (titleEl) {
+            titleEl.innerText = titleEl.innerText.replace(/\s*\(북반구\)/g, '').replace(/\s*\(남반구\)/g, '');
+          }
+        }
+      });
     });
+
+    // ----------------------------------------------------
+    // 8. 기후 그래프 클릭 시 남반구/북반구 토글 기능
+    // ----------------------------------------------------
+    function initChartToggle() {
+      // 차트 컨테이너가 있는 모든 카드를 찾음
+      const cards = document.querySelectorAll('.card-item');
+      cards.forEach(card => {
+        const container = card.querySelector('.chart-container');
+        if (!container) return;
+        
+        // 카드 아이템 마우스 커서 및 클릭 리스너 설정
+        card.style.cursor = 'pointer';
+        card.title = '클릭하면 남반구/북반구 기후 그래프로 전환됩니다';
+        
+        card.addEventListener('click', () => {
+          const currentHemi = container.getAttribute('data-hemisphere') || 'north';
+          const newHemi = currentHemi === 'north' ? 'south' : 'north';
+          container.setAttribute('data-hemisphere', newHemi);
+          
+          // 차트 다시 그리기
+          const chartType = container.getAttribute('data-chart');
+          drawClimateChart(container, chartType);
+          
+          // 제목 텍스트 갱신 (남반구/북반구 접미사 붙이기)
+          const titleEl = card.querySelector('.card-item-title');
+          if (titleEl) {
+            let baseText = titleEl.innerText;
+            // 기존 괄호 표기 제거
+            baseText = baseText.replace(/\s*\(북반구\)/g, '').replace(/\s*\(남반구\)/g, '');
+            if (newHemi === 'south') {
+              titleEl.innerText = baseText + ' (남반구)';
+            } else {
+              titleEl.innerText = baseText + ' (북반구)';
+            }
+          }
+        });
+      });
+    }
 
     // ----------------------------------------------------
     // 7. 초기화 구동
     // ----------------------------------------------------
     initBlankEvents();
+    initChartToggle();
     switchTopic('climate');
   </script>
 </body>
