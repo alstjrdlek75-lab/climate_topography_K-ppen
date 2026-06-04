@@ -2300,8 +2300,13 @@
       // 강수량 스케일 설정
       const maxDataP = Math.max(...precips);
       let maxP = 200;
-      if (maxDataP > 500) maxP = 800;
-      else if (maxDataP > 200) maxP = 400;
+      if (['af', 'am', 'aw'].includes(type)) {
+        maxP = 800; // 열대 기후(Af, Am, Aw)는 상호 비교를 위해 Y축 강수량 범위를 800mm로 통일합니다.
+      } else if (maxDataP > 500) {
+        maxP = 800;
+      } else if (maxDataP > 200) {
+        maxP = 400;
+      }
       
       // 격자 및 좌우축 수치
       let gridLines = '';
